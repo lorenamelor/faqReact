@@ -1,5 +1,66 @@
+.application{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+}
+
+.header{
+    margin-bottom: 90px;
+}
+
+.input-group-addon:first-child {
+    color: white;
+    background: #286090;
+    border: 1px;
+}
+
+.addButtons{
+    float: right;
+    margin: 10px 0px;
+}
+
+.btn{
+    margin-left: 10px;
+}
+
+.groupCategory{
+    margin-top:20px;
+}
+
+.helpTitle{
+    text-align: center;
+}
+
 .searchBar{
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
+}
+
+.categoryTable{
+    width: 100%;
+    border: 1px solid #dedede;
+    margin-bottom: 01px;
+}
+
+.categoryTitle{
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    background-image: -webkit-linear-gradient(left, #233f51, #007292);
+    background-image: -moz-linear-gradient(left, #233f51, #007292);
+    background-image: -ms-linear-gradient(left, #233f51, #007292);
+    background-image: -o-linear-gradient(left, #233f51, #007292);
+    background-image: linear-gradient(to right, #233f51, #007292);
+}
+
+.questions{
+    border-bottom: 1px solid #dedede;
+    position: relative;
+    padding: 10px;
+    color: #999;
 }

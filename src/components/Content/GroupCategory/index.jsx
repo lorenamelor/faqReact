@@ -2,8 +2,9 @@ import React from 'react';
 import Category from './Category';
 
 const GroupCategory = () =>(
-    <div>
-        <Category/>
+    <div className="groupCategory">
+        <Category category="Moedas"/>
+        <Category category="Taxas"/>
     </div>
 )
 

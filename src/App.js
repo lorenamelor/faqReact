@@ -10,7 +10,7 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-        searchTerm: 'teste'
+        searchTerm: ''
     }
   }
 
@@ -21,7 +21,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="application">
         <Content searchTerm={this.state.searchTerm} handleSearchTerm = {this.handleSearchTerm}/>
       </div>
     );
