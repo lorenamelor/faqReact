@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'
+import Question from './Question/index'
 
 const Category = (props) =>(
     <div className="col-md-6">
         <div className="categoryTable">
             <div className="categoryTitle">{props.category}</div>
-                <div className="questions"><a href={props.link}>{props.question}</a></div>
+                <Question/>
         </div>
     </div>
 )
