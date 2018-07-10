@@ -1,15 +1,7 @@
 import React from 'react';
 
-const Question = (props) =>{
-
-    const renderQuestions = () =>{
-        const listQuestions = props.listQuestions || []
-        return listQuestions.map(question =>(
-            <div className="questions"><a href="#">}>{question.textQuestion}</a></div>
-        ))
-    }
-
-return({renderQuestions()})
-}
+const Question = (props) =>(
+    <div className="questions"><a href="">{props.textQuestion}</a></div>
+)
 
 export default Question;    

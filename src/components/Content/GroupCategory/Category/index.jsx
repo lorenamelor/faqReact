@@ -1,13 +1,17 @@
 import React from 'react'
 import Question from './Question/index'
 
-const Category = (props) =>(
+const Category = (props) =>(  
+         
     <div className="col-md-6">
         <div className="categoryTable">
-            <div className="categoryTitle">{props.category}</div>
-                <Question/>
+            <div className="categoryTitle">{props.category.name}</div>
+            {props.questions.map(question =>(
+                <Question textQuestion={question.textQuestion}/>
+            ))}
         </div>
-    </div>
+    </div>  
 )
+
 
 export default Category;
